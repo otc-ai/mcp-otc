@@ -2,6 +2,10 @@
 
 An MCP (Model Context Protocol) server that provides Ethereum blockchain data tools via Etherscan's API. Features include checking ETH balances, viewing transaction history, tracking ERC20 transfers, fetching contract ABIs, monitoring gas prices, and resolving ENS names.
 
+<a href="https://glama.ai/mcp/servers/zxc05h0ws2">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/zxc05h0ws2/badge" alt="mcp-otc MCP server" />
+</a>
+
 ## Features
 
 - **Balance Checking**: Get ETH balance for any Ethereum address
@@ -121,4 +125,4 @@ To add new features or modify existing ones:
 
 ## License
 
-MIT License - See LICENSE file for details 
+MIT License - See LICENSE file for details
