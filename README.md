@@ -48,6 +48,15 @@ npm start
 
 The server will run on stdio, making it compatible with MCP clients like Claude Desktop.
 
+
+
+## Running evals
+
+The evals package loads an mcp client that then runs the index.ts file, so there is no need to rebuild between tests. You can load environment variables by prefixing the npx command. Full documentation can be found [here](https://www.mcpevals.io/docs).
+
+```bash
+OPENAI_API_KEY=your-key  npx mcp-eval src/evals/evals.ts src/server.ts
+```
 ## How It Works
 
 This server implements the Model Context Protocol (MCP) to provide tools for interacting with Ethereum blockchain data through Etherscan's API. Each tool is exposed as an MCP endpoint that can be called by compatible clients.
